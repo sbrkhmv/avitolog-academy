@@ -489,7 +489,9 @@ p{ margin:0; }
 }
 @media (max-width: 900px){
   .hero-grid{ grid-template-columns: 1fr; }
-  .hero-artifacts{ height: 380px; margin-top: 20px; }
+  .hero-artifacts{ position:static; height:auto; margin-top: 28px; display:flex; flex-direction:column; gap:18px; }
+  .artifact-card{ position:static; width:100% !important; max-width: 320px; margin: 0 auto; }
+  .float-a, .float-b, .float-c{ animation:none; }
   .feature-grid{ grid-template-columns: repeat(2,1fr); }
   .feature-card-lg{ grid-column: span 2; }
   .teachers-grid{ grid-template-columns: 1fr; }
